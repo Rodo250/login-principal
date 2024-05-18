@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="fondo-borros"></div>
+
+    <div class="container">
+        <div class="container-form">
+            <form class="sign-in">
+                <h2>OneSAT</h2>
+                <div class="social-networks">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+                <span>ingrese usuario y contraseña</span>
+                <div class="container-input">
+                  <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Usuario">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+                
+                <button class="button">INICIAR SESIÓN</button>
+            </form>
+        </div>
+
+        <div class="container-form">
+            <form class="sign-up">
+                <h2>Restablecer contraseña</h2>
+                <span>Ingrese usuario y su nueva contraseña</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Usuario">
+                </div>
+                <div class="container-input">
+                  <ion-icon name="lock-open-outline"></ion-icon>
+                    <input type="text" placeholder="Contraseña">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Comfirmar contraseña">
+                </div>
+                <button class="button" >Recuperar contraseña</button>
+            </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Ingrese sus datos personales para recuperar su contraseña</p>
+                <button class="button" id="btn-sign-up">¿Olvidaste tu contraseña?</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Hola!</h3>
+                <p>Recupere su contraseña para tener acceso a su sistema academico</p>
+                <button class="button" id="btn-sign-in">Volver al incio</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+function openInstagramPage() {
+    window.open('https://www.instagram.com/unisalamanca?igsh=NjZmZTRrd2dwNG45', '_blank');
+}
+</script>
+<script>
+  function openFacebookPage() {
+      window.open('https://www.facebook.com/people/Instituci%C3%B3n-Universitaria-Salamanca/100091035623816/?mibextid=ZbWKwL', '_blank');
+  }
+  </script>
+  <script>
+    function openWhatsAppPage() {
+        window.open('https://api.whatsapp.com/send?phone=573208345051&text=&source=&data=', '_blank');
+    }
+    </script>
+    <script>
+      function openYouTubePage() {
+          window.open('https://www.youtube.com/channel/UCnD7HyXswQ7w3usdMxyzePQ/featured', '_blank');
+      }
+      </script>
+
+</body>
+</html>
